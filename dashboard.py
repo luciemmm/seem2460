@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset
-url = '/Users/moemmyat/Documents/GitHub/seem2460/housing.csv'
+url = 'housing.csv'
 df=pd.read_csv(url)
 
 # Set up sidebar for user inputs

@@ -3,12 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset
-@st.cache_data
-def load_data():
-    url = '/Users/moemmyat/Documents/GitHub/seem2460/housing.csv'
-    return pd.read_csv(url)
-
-df = load_data()
+url = '/Users/moemmyat/Documents/GitHub/seem2460/housing.csv'
+df=pd.read_csv(url)
 
 # Set up sidebar for user inputs
 st.sidebar.header('User Input Features')
